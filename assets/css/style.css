@@ -1,0 +1,231 @@
+body {
+    font-family: 'Ubuntu', sans-serif !important;
+    overflow-x: hidden;
+    color: #161616;
+}
+
+.upload-area {
+    font-family: 'Ubuntu', sans-serif !important;
+    width: 100%;
+    height: 200px;
+    border: 2px solid lightgray;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    overflow: auto;
+}
+
+.upload-area:hover {
+    cursor: pointer;
+}
+
+.upload-area h1 {
+    font-family: 'Ubuntu', sans-serif !important;
+    text-align: center;
+    font-weight: normal;
+    font-family: sans-serif;
+    line-height: 50px;
+    color: darkslategray;
+}
+
+#file {
+    display: none;
+}
+
+/* Thumbnail */
+.thumbnail {
+    font-family: 'Ubuntu', sans-serif !important;
+    width: 80px;
+    height: 80px;
+    padding: 2px;
+    border: 2px solid lightgray;
+    border-radius: 3px;
+    float: left;
+}
+
+.size {
+    font-family: 'Ubuntu', sans-serif !important;
+    font-size: 12px;
+}
+
+.error {
+    display: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: red;
+    text-transform: capitalize;
+    border: 2px solid red;
+    padding: 5px;
+    font-weight: 600;
+}
+
+div.loader-overlay {
+    display: table;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999999999999999999999999999999999999999999999999999999999;
+}
+
+div.loader-overlay > div {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .7);
+    text-align: center;
+    vertical-align: middle;
+    color: #000;
+}
+
+.btn {
+    border-radius: 0px !important;
+}
+
+/* SWEET ALERT */
+.swal2-modal {
+    font-family: inherit !important;
+    letter-spacing: 1px;
+    font-weight: 700;
+    width: 335px !important;
+    border: 5px solid #e2610b;
+    border-radius: 0px !important;
+    padding: 0px !important;
+}
+
+.swal2-modal .swal2-title {
+    letter-spacing: 5px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+    background: #ff6600;
+    padding: 10px;
+}
+
+.swal2-modal .swal2-styled {
+    font-family: inherit !important;
+    border: 2px solid transparent;
+    border-radius: 0px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 10px 2px 10px;
+    padding: 7px 20px;
+    letter-spacing: 2px;
+}
+
+.swal2-modal .swal2-content {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    float: none;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    color: #545454;
+    word-wrap: break-word;
+    text-transform: capitalize;
+}
+
+.alert-text-white {
+    color: #fff;
+}
+
+.alert-info {
+    color: #31708f;
+    background: #0182c6 !important;
+}
+
+.alert-success {
+    color: #31708f;
+    background: #00a65a !important;
+}
+
+.alert-danger {
+    color: #31708f;
+    background: red !important;
+}
+
+/* ERROR */
+.error-message {
+    text-transform: capitalize;
+    background: transparent;
+    color: #ff6600;
+    padding: 5px;
+    border: 0;
+    font-weight: bold;
+    margin-top: 1px;
+    font-size: 10px;
+}
+
+/*OTHER*/
+.form-control {
+    border-radius: 0px
+}
+
+.blog-image {
+    border: 1px solid gainsboro;
+    padding: 15px;
+    width: 100%;
+    height: auto;
+}
+
+.blog-description p {
+    text-align: justify;
+}
+
+.swal2-modal {
+    border: 0;
+    background: #fff !important
+}
+
+.swal2-modal.alert {
+    margin-bottom: auto;
+    border: 1px solid #fff !important
+}
+
+.swal2-content .message-inner-separator {
+    margin: 0
+}
+
+.swal2-modal .swal2-title {
+    margin-bottom: 0;
+    padding: 14px 0
+}
+
+.swal2-content p {
+    color: #212121 !important;
+    padding: 2rem 1rem;
+    margin-bottom: 0
+}
+
+.swal2-buttonswrapper {
+    background: transparent;
+    margin-top: 0 !important
+}
+.swal2-modal .swal2-styled {
+    background-color: rgb(255, 102, 0) !important;
+    border-left-color: rgb(255, 102, 0) !important;
+    border-right-color: rgb(255, 102, 0) !important
+}
+.ml-15{
+    margin-left: 15px;
+}
+.select-icon{
+    font-size: 20px;
+}
+.select-dropdown{
+    min-width: 100%;
+    border-radius: 0px;
+    margin-left: 0px;
+    padding: 0px;
+}
+.select-li{
+    background: #4695da !important;
+    color: white !important;
+    font-weight: 600 !important;
+    border-bottom: 2px solid #176db7 !important;
+}
